@@ -63,3 +63,9 @@ margin-left:3 rem ;
 .para{
   margin-top: 1rem;
 }
+@media screen and(max-width:378px){
+  .container{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
